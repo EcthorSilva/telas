@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <title>Cadastro de Produtos | Umbrella Corp.</title>
+    </head>
+    <body>
+        <!-- Main -->
+        <section class="container-user">
+            <div class="user-container">
+                <!-- Titulo -->
+                <div class="form-container">
+                    <div class="header-cadastro">
+                        <span>Cadastro de Produtos</span>
+                        <button onclick="openModal()" id="new">Incluir</button>
+                    </div>
+                    <!-- 1 -->
+                    <div class="divTable">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Nome do Produto</th>
+                                    <th>Preço</th>
+                                    <th>Quantidade</th>
+                                    <th class="acao">Editar</th>
+                                    <th class="acao">Excluir</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="popup-container">
+                <div class="popup">
+                    <form>
+                        <label for="m-codigoProduto">Código</label>
+                        <input id="m-codigoProduto" type="text" required />
+              
+                        <label for="m-nomeProduto">Nome do Produto</label>
+                        <input id="m-nomeProduto" type="text" required />
+        
+                        <label for="m-precoProduto">Preço</label>
+                        <input id="m-precoProduto" type="text" required />
+        
+                        <label for="m-quantidadeProduto">Quantidade</label>
+                        <input id="m-quantidadeProduto" type="number" required />
+              
+                        <button id="btnSalvar">Salvar</button>
+                      </form>
+                </div>
+            </div>
+        </section>
+        <!-- Importa o script -->
+        <script src="js/cadastroProduto.js"></script>
+    </body>
+</html>
