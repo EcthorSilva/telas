@@ -464,7 +464,7 @@ button{
 
 .user-container {
     position: relative;
-    width: 100vh;
+    width: 150vh;
 }
 
 .divTable {
@@ -496,9 +496,8 @@ tr {
 }
 
 tbody tr td {
-    vertical-align: text-top;
+    vertical-align: middle;
     padding: 6px;
-    max-width: 50px;
 }
 
 thead tr th {
@@ -547,6 +546,14 @@ tbody tr td.acao {
     font-size: 14px;
     width: 100%;
 }
+
+/* #m-imagemProduto{
+    outline: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: none;
+    opacity: 0.6;
+} */
 
 .popup input {
     width: 100%;

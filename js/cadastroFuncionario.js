@@ -1,11 +1,11 @@
-const modal = document.querySelector('.popup-container')
-const tbody = document.querySelector('tbody')
-const sNome = document.querySelector('#m-nome')
-const sCargo = document.querySelector('#m-cargo')
-const sEmail = document.querySelector('#m-email')
-const sSituacao = document.querySelector('#m-situacao')
+const modal = document.querySelector('.popup-container');
+const tbody = document.querySelector('tbody');
+const sNome = document.querySelector('#m-nome');
+const sCargo = document.querySelector('#m-cargo');
+const sEmail = document.querySelector('#m-email');
+const sSituacao = document.querySelector('#m-situacao');
 
-const btnSalvar = document.querySelector('#btnSalvar')
+const btnSalvar = document.querySelector('#btnSalvar');
 
 let itens
 let id
